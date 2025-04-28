@@ -145,7 +145,7 @@ class AutoClickerApp:
 # Run App
 if __name__ == "__main__":
     root = tk.Tk()
-    root.geometry("600x850")
+    root.geometry("250x600")
     root.resizable(True, True)
     app = AutoClickerApp(root)
     root.mainloop()
